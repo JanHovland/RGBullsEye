@@ -12,6 +12,7 @@
 		DB9E4AB7243485FC00C6D085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9E4AB6243485FC00C6D085 /* Assets.xcassets */; };
 		DB9E4ABA243485FC00C6D085 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9E4AB9243485FC00C6D085 /* Preview Assets.xcassets */; };
 		DB9E4ABD243485FC00C6D085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9E4ABB243485FC00C6D085 /* Main.storyboard */; };
+		DB9E4AC6243489EC00C6D085 /* Create Mac icons.jsx in Resources */ = {isa = PBXBuildFile; fileRef = DB9E4AC5243489EC00C6D085 /* Create Mac icons.jsx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DB9E4ABC243485FC00C6D085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB9E4ABE243485FC00C6D085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB9E4ABF243485FC00C6D085 /* RGBullsEye.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RGBullsEye.entitlements; sourceTree = "<group>"; };
+		DB9E4AC5243489EC00C6D085 /* Create Mac icons.jsx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Create Mac icons.jsx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				DB9E4AB2243485F500C6D085 /* AppDelegate.swift */,
 				DB9E4AB4243485F500C6D085 /* ContentView.swift */,
+				DB9E4AC5243489EC00C6D085 /* Create Mac icons.jsx */,
 				DB9E4AB6243485FC00C6D085 /* Assets.xcassets */,
 				DB9E4ABB243485FC00C6D085 /* Main.storyboard */,
 				DB9E4ABE243485FC00C6D085 /* Info.plist */,
@@ -132,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9E4AC6243489EC00C6D085 /* Create Mac icons.jsx in Resources */,
 				DB9E4ABD243485FC00C6D085 /* Main.storyboard in Resources */,
 				DB9E4ABA243485FC00C6D085 /* Preview Assets.xcassets in Resources */,
 				DB9E4AB7243485FC00C6D085 /* Assets.xcassets in Resources */,
