@@ -19,6 +19,8 @@ struct ContentView: View {
 
     @State var showAlert = false
 
+    /// <#Description#>
+    /// - Returns: <#description#>
     func computeScore() -> Int {
         let rDiff = rGuess - rTarget
         let gDiff = gGuess - gTarget
