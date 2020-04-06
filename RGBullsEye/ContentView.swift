@@ -67,9 +67,9 @@ struct ContentView: View {
             .padding(.horizontal)
 
             VStack {
-                ExtractedView(value: $rGuess, textColor: .red)
-                ExtractedView(value: $gGuess, textColor: .green)
-                ExtractedView(value: $bGuess, textColor: .blue)
+                SliderSetting(value: $rGuess, textColor: .red)
+                SliderSetting(value: $gGuess, textColor: .green)
+                SliderSetting(value: $bGuess, textColor: .blue)
             }
             .padding(.vertical)
             .padding(.horizontal)
@@ -78,7 +78,7 @@ struct ContentView: View {
 
 }
 
-struct ExtractedView: View {
+struct SliderSetting: View {
     @Binding var value: Double
     var textColor: Color
     var body: some View {
